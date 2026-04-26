@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -23,6 +23,13 @@ export function Footer() {
           >
             <Phone className="h-4 w-4 text-accent" />
             046 523 4696
+          </a>
+          <a
+            href="mailto:porvooprolook@gmail.com"
+            className="flex items-center gap-3 text-muted-foreground hover:text-foreground break-all"
+          >
+            <Mail className="h-4 w-4 shrink-0 text-accent" />
+            porvooprolook@gmail.com
           </a>
           <p className="flex items-center gap-3 text-muted-foreground">
             <Clock className="h-4 w-4 text-accent" />
