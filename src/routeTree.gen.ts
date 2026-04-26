@@ -11,7 +11,6 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as YhteystiedotRouteImport } from './routes/yhteystiedot'
 import { Route as PalvelutRouteImport } from './routes/palvelut'
-import { Route as GalleriaRouteImport } from './routes/galleria'
 import { Route as IndexRouteImport } from './routes/index'
 
 const YhteystiedotRoute = YhteystiedotRouteImport.update({
@@ -24,11 +23,6 @@ const PalvelutRoute = PalvelutRouteImport.update({
   path: '/palvelut',
   getParentRoute: () => rootRouteImport,
 } as any)
-const GalleriaRoute = GalleriaRouteImport.update({
-  id: '/galleria',
-  path: '/galleria',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -37,34 +31,30 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/galleria': typeof GalleriaRoute
   '/palvelut': typeof PalvelutRoute
   '/yhteystiedot': typeof YhteystiedotRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/galleria': typeof GalleriaRoute
   '/palvelut': typeof PalvelutRoute
   '/yhteystiedot': typeof YhteystiedotRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/galleria': typeof GalleriaRoute
   '/palvelut': typeof PalvelutRoute
   '/yhteystiedot': typeof YhteystiedotRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/galleria' | '/palvelut' | '/yhteystiedot'
+  fullPaths: '/' | '/palvelut' | '/yhteystiedot'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/galleria' | '/palvelut' | '/yhteystiedot'
-  id: '__root__' | '/' | '/galleria' | '/palvelut' | '/yhteystiedot'
+  to: '/' | '/palvelut' | '/yhteystiedot'
+  id: '__root__' | '/' | '/palvelut' | '/yhteystiedot'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  GalleriaRoute: typeof GalleriaRoute
   PalvelutRoute: typeof PalvelutRoute
   YhteystiedotRoute: typeof YhteystiedotRoute
 }
@@ -85,13 +75,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PalvelutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/galleria': {
-      id: '/galleria'
-      path: '/galleria'
-      fullPath: '/galleria'
-      preLoaderRoute: typeof GalleriaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -104,7 +87,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  GalleriaRoute: GalleriaRoute,
   PalvelutRoute: PalvelutRoute,
   YhteystiedotRoute: YhteystiedotRoute,
 }
