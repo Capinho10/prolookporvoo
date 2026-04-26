@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import { MapPin, Phone, Clock, Navigation } from "lucide-react";
+import { MapPin, Phone, Clock, Navigation, Mail } from "lucide-react";
 
 export const Route = createFileRoute("/yhteystiedot")({
   head: () => ({
@@ -75,6 +75,18 @@ function ContactPage() {
                 <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Puhelin</p>
                 <p className="mt-1 font-display text-2xl tracking-wider">046 523 4696</p>
                 <p className="text-sm text-muted-foreground">Soita aukioloaikoina</p>
+              </div>
+            </a>
+
+            <a
+              href="mailto:porvooprolook@gmail.com"
+              className="group flex items-start gap-5 rounded-2xl border border-border/70 bg-card p-7 transition hover:border-accent/60"
+            >
+              <Mail className="h-7 w-7 shrink-0 text-accent" />
+              <div>
+                <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Sähköposti</p>
+                <p className="mt-1 font-display text-2xl tracking-wider break-all">porvooprolook@gmail.com</p>
+                <p className="text-sm text-muted-foreground">Vastaamme mahdollisimman pian</p>
               </div>
             </a>
 
