@@ -5,7 +5,6 @@ import logo from "@/assets/prolook-logo.jpeg";
 const nav = [
   { to: "/", label: "Etusivu" },
   { to: "/palvelut", label: "Palvelut" },
-  { to: "/galleria", label: "Galleria" },
   { to: "/yhteystiedot", label: "Yhteystiedot" },
 ] as const;
 
