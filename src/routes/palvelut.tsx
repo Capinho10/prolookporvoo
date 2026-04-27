@@ -31,7 +31,7 @@ const services = [
   {
     fi: "Eläkeläiset",
     sv: "Pensionärer",
-    desc: "Erikoishinta eläkeläisille — laadukas leikkaus rauhallisessa tahdissa.",
+    desc: "Laadukas leikkaus rauhallisessa tahdissa.",
     price: "20€",
   },
   {
