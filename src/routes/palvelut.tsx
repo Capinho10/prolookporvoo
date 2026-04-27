@@ -8,7 +8,7 @@ export const Route = createFileRoute("/palvelut")({
       {
         name: "description",
         content:
-          "ProLookin hinnasto: Hiusten leikkaus 25€, eläkeläiset 20€, naisten hiukset 30€, lapset alle 12v 22€, isä + poika 45€. Porvoo, Rihkamatori 2A.",
+          "ProLookin hinnasto: Hiustenleikkaus 20€, eläkeläiset 20€, lapset 20€, naisten hiukset 30€, parranajo 10€. Porvoo, Rihkamatori 2A.",
       },
       { property: "og:title", content: "Palvelut & Hinnasto — ProLook Porvoo" },
       {
