@@ -41,6 +41,7 @@ export function Footer() {
           <ul className="space-y-2 text-muted-foreground">
             <li><Link to="/" className="hover:text-foreground">Etusivu</Link></li>
             <li><Link to="/palvelut" className="hover:text-foreground">Palvelut & Hinnasto</Link></li>
+            <li><Link to="/galleria" className="hover:text-foreground">Galleria</Link></li>
             <li><Link to="/yhteystiedot" className="hover:text-foreground">Yhteystiedot</Link></li>
           </ul>
         </div>
