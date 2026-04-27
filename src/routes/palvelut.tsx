@@ -25,7 +25,7 @@ const services = [
   {
     fi: "Hiustenleikkaus",
     sv: "Hårklippning",
-    desc: "Klassinen tai moderni leikkaus, sisältää pesun ja viimeistelyn.",
+    desc: "Klassinen tai moderni leikkaus, sisältää sekä koneajon että saksileikkauksen.",
     price: "20€",
   },
   {
