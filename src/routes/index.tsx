@@ -42,11 +42,11 @@ const highlights = [
 ];
 
 const priceTeaser = [
-  { name: "Hiusten leikkaus", price: "25€" },
+  { name: "Hiustenleikkaus", price: "20€" },
   { name: "Eläkeläiset", price: "20€" },
+  { name: "Lapset alle 12v", price: "20€" },
   { name: "Naisten hiukset", price: "30€" },
-  { name: "Lapset alle 12v", price: "22€" },
-  { name: "Isä + poika alle 12v", price: "45€" },
+  { name: "Parranajo", price: "10€" },
 ];
 
 function HomePage() {
