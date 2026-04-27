@@ -53,6 +53,34 @@ function GalleryPage() {
         </div>
       </section>
 
+      {/* FEATURED VIDEO */}
+      <section className="border-b border-border/60 bg-background">
+        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20">
+          <div className="grid gap-10 md:grid-cols-[1fr_1.4fr] md:items-center">
+            <div>
+              <p className="font-display text-sm tracking-[0.4em] text-accent">VIDEO</p>
+              <h2 className="mt-4 font-display text-4xl tracking-tight md:text-5xl">
+                Katso meidät työn touhussa.
+              </h2>
+              <p className="mt-5 text-muted-foreground">
+                Pieni välähdys ProLookin tunnelmasta ja kädenjäljestä — Porvoon
+                keskustasta, Rihkamatori 2A.
+              </p>
+            </div>
+            <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
+              <video
+                src="/videos/gallery-1.mp4"
+                poster="/videos/gallery-1-poster.jpg"
+                controls
+                playsInline
+                preload="metadata"
+                className="aspect-[9/16] h-auto w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* MASONRY GRID */}
       <section className="hex-grid">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
