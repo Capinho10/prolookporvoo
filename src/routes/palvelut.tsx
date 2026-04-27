@@ -8,7 +8,7 @@ export const Route = createFileRoute("/palvelut")({
       {
         name: "description",
         content:
-          "ProLookin hinnasto: Hiusten leikkaus 25€, eläkeläiset 20€, naisten hiukset 30€, lapset alle 12v 22€, isä + poika 45€. Porvoo, Rihkamatori 2A.",
+          "ProLookin hinnasto: Hiustenleikkaus 20€, eläkeläiset 20€, lapset 20€, naisten hiukset 30€, parranajo 10€. Porvoo, Rihkamatori 2A.",
       },
       { property: "og:title", content: "Palvelut & Hinnasto — ProLook Porvoo" },
       {
@@ -23,15 +23,21 @@ export const Route = createFileRoute("/palvelut")({
 
 const services = [
   {
-    fi: "Hiusten leikkaus",
+    fi: "Hiustenleikkaus",
     sv: "Hårklippning",
-    desc: "Klassinen tai moderni miesten leikkaus, sisältää pesun ja viimeistelyn.",
-    price: "25€",
+    desc: "Klassinen tai moderni leikkaus, sisältää pesun ja viimeistelyn.",
+    price: "20€",
   },
   {
     fi: "Eläkeläiset",
     sv: "Pensionärer",
     desc: "Erikoishinta eläkeläisille — laadukas leikkaus rauhallisessa tahdissa.",
+    price: "20€",
+  },
+  {
+    fi: "Lapset alle 12v",
+    sv: "Barn under 12 år",
+    desc: "Reipas ja ystävällinen palvelu lapsiasiakkaille.",
     price: "20€",
   },
   {
@@ -41,16 +47,46 @@ const services = [
     price: "30€",
   },
   {
-    fi: "Lapset alle 12v",
-    sv: "Barn under 12 år",
-    desc: "Reipas ja ystävällinen palvelu lapsiasiakkaille.",
-    price: "22€",
+    fi: "Miesten pitkät hiukset",
+    sv: "Långt hår män",
+    desc: "Pidempien miesten hiusten leikkaus ja muotoilu.",
+    price: "30€",
+  },
+  {
+    fi: "Koneajo (samalla mitalla)",
+    sv: "Klippning med maskin",
+    desc: "Nopea koneajo yhdellä mitalla läpi.",
+    price: "15€",
+  },
+  {
+    fi: "Parran muotoilu",
+    sv: "Skäggformning",
+    desc: "Parran muotoilu ja siistiminen.",
+    price: "alk. 15€",
+  },
+  {
+    fi: "Parranajo",
+    sv: "Rakning",
+    desc: "Perinteinen parranajo.",
+    price: "10€",
+  },
+  {
+    fi: "Hiusten pesu",
+    sv: "Hårtvätt",
+    desc: "Hiusten pesu.",
+    price: "5€",
   },
   {
     fi: "Isä + poika alle 12v",
     sv: "Pappa + son under 12 år",
     desc: "Yhteinen parturikäynti — molemmat samalla kertaa edulliseen hintaan.",
     price: "45€",
+  },
+  {
+    fi: "Isä + 2 poikaa alle 12v",
+    sv: "Pappa + 2 söner under 12 år",
+    desc: "Isä ja kaksi poikaa samalla käynnillä.",
+    price: "65€",
   },
 ];
 

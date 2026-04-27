@@ -6,11 +6,11 @@ import { MapPin, Clock, Star, Scissors, Users } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ProLook Parturi-Kampaamo Porvoo — Hiusten leikkaus 25€" },
+      { title: "ProLook Parturi-Kampaamo Porvoo — Hiustenleikkaus 20€" },
       {
         name: "description",
         content:
-          "ProLook Parturi-Kampaamo Porvoon keskustassa, Rihkamatori 2A. Hiusten leikkaus 25€. Avoinna ma–la 9–18, ei ajanvarausta. Soita 046 523 4696.",
+          "ProLook Parturi-Kampaamo Porvoon keskustassa, Rihkamatori 2A. Hiustenleikkaus 20€. Avoinna ma–la 9–18, ei ajanvarausta. Soita 046 523 4696.",
       },
       { property: "og:title", content: "ProLook Parturi-Kampaamo Porvoo" },
       {
@@ -42,11 +42,11 @@ const highlights = [
 ];
 
 const priceTeaser = [
-  { name: "Hiusten leikkaus", price: "25€" },
+  { name: "Hiustenleikkaus", price: "20€" },
   { name: "Eläkeläiset", price: "20€" },
+  { name: "Lapset alle 12v", price: "20€" },
   { name: "Naisten hiukset", price: "30€" },
-  { name: "Lapset alle 12v", price: "22€" },
-  { name: "Isä + poika alle 12v", price: "45€" },
+  { name: "Parranajo", price: "10€" },
 ];
 
 function HomePage() {
