@@ -76,18 +76,6 @@ const services = [
     desc: "Hiusten pesu.",
     price: "5€",
   },
-  {
-    fi: "Isä + poika alle 12v",
-    sv: "Pappa + son under 12 år",
-    desc: "Yhteinen parturikäynti — molemmat samalla kertaa edulliseen hintaan.",
-    price: "45€",
-  },
-  {
-    fi: "Isä + 2 poikaa alle 12v",
-    sv: "Pappa + 2 söner under 12 år",
-    desc: "Isä ja kaksi poikaa samalla käynnillä.",
-    price: "65€",
-  },
 ];
 
 function ServicesPage() {
