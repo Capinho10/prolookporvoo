@@ -9,12 +9,12 @@ export const Route = createFileRoute("/yhteystiedot")({
       {
         name: "description",
         content:
-          "ProLook Parturi-Kampaamo, Rihkamatori 2A, 06100 Porvoo. Puh. 046 523 4696. Avoinna ma–la 9–18. Ei ajanvarausta.",
+          "ProLook Parturi-Kampaamo, Rihkamatori A, 06100 Porvoo. Puh. 046 523 4696. Avoinna ma–la 9–18. Ei ajanvarausta.",
       },
       { property: "og:title", content: "Yhteystiedot — ProLook Porvoo" },
       {
         property: "og:description",
-        content: "Löydä meidät: Rihkamatori 2A, 06100 Porvoo. Soita 046 523 4696.",
+        content: "Löydä meidät: Rihkamatori A, 06100 Porvoo. Soita 046 523 4696.",
       },
     ],
   }),
@@ -63,7 +63,7 @@ function ContactPage() {
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr]">
           <div className="space-y-6">
             <a
-              href="https://maps.google.com/?q=Rihkamatori+2A,+06100+Porvoo"
+              href="https://maps.google.com/?q=Rihkamatori+A,+06100+Porvoo"
               target="_blank"
               rel="noreferrer"
               className="group flex items-start gap-5 rounded-2xl border border-border/70 bg-card p-7 transition hover:border-accent/60"
@@ -71,7 +71,7 @@ function ContactPage() {
               <MapPin className="h-7 w-7 shrink-0 text-accent" />
               <div className="flex-1">
                 <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Osoite</p>
-                <p className="mt-1 font-display text-2xl tracking-wider">Rihkamatori 2A</p>
+                <p className="mt-1 font-display text-2xl tracking-wider">Rihkamatori A</p>
                 <p className="text-muted-foreground">06100 Porvoo</p>
                 <p className="mt-2 inline-flex items-center gap-1 text-sm text-accent group-hover:underline">
                   <Navigation className="h-3.5 w-3.5" /> Avaa kartalla
@@ -124,7 +124,7 @@ function ContactPage() {
           <div className="overflow-hidden rounded-2xl border border-border/70 bg-card">
             <iframe
               title="ProLook Parturi sijainti kartalla"
-              src="https://www.google.com/maps?q=Rihkamatori+2A,+06100+Porvoo&output=embed"
+              src="https://www.google.com/maps?q=Rihkamatori+A,+06100+Porvoo&output=embed"
               className="h-full min-h-[480px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
