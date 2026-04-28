@@ -15,7 +15,7 @@ export function Footer() {
           <p className="font-display text-lg tracking-widest text-accent">YHTEYSTIEDOT</p>
           <p className="flex items-start gap-3 text-muted-foreground">
             <MapPin className="mt-0.5 h-4 w-4 text-accent" />
-            Rihkamatori 2A, 06100 Porvoo
+            Rihkamatori A, 06100 Porvoo
           </p>
           <a
             href="tel:+358465234696"

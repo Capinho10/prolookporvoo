@@ -64,7 +64,7 @@ function GalleryPage() {
               </h2>
               <p className="mt-5 text-muted-foreground">
                 Pieni välähdys ProLookin tunnelmasta ja kädenjäljestä — Porvoon
-                keskustasta, Rihkamatori 2A.
+                keskustasta, Rihkamatori A.
               </p>
             </div>
             <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
@@ -118,7 +118,7 @@ function GalleryPage() {
             Haluatko oman tyylisi?
           </h2>
           <p className="max-w-xl text-muted-foreground">
-            Tule sisään — ei ajanvarausta. Avoinna ma–la 9–18, Rihkamatori 2A.
+            Tule sisään — ei ajanvarausta. Avoinna ma–la 9–18, Rihkamatori A.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a

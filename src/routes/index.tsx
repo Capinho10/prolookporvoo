@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "ProLook Parturi-Kampaamo Porvoon keskustassa, Rihkamatori 2A. Hiustenleikkaus 20€. Avoinna ma–la 9–18, ei ajanvarausta. Soita 046 523 4696.",
+          "ProLook Parturi-Kampaamo Porvoon keskustassa, Rihkamatori A. Hiustenleikkaus 20€. Avoinna ma–la 9–18, ei ajanvarausta. Soita 046 523 4696.",
       },
       { property: "og:title", content: "ProLook Parturi-Kampaamo Porvoo" },
       {
@@ -94,7 +94,7 @@ function HomePage() {
 
           <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
-              <MapPin className="h-4 w-4 text-accent" /> Rihkamatori 2A, Porvoo
+              <MapPin className="h-4 w-4 text-accent" /> Rihkamatori A, Porvoo
             </span>
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-accent" /> Ma–La 9:00–18:00
@@ -169,11 +169,11 @@ function HomePage() {
           </h2>
           <p className="max-w-xl text-muted-foreground">
             Olemme avoinna ma–la 9–18. Löydät meidät Porvoon keskustasta osoitteesta
-            Rihkamatori 2A.
+            Rihkamatori A.
           </p>
           <div className="mt-2 flex flex-wrap justify-center gap-4">
             <a
-              href="https://maps.google.com/?q=Rihkamatori+2A,+06100+Porvoo"
+              href="https://maps.google.com/?q=Rihkamatori+A,+06100+Porvoo"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-semibold uppercase tracking-widest text-accent-foreground transition hover:scale-[1.03]"
