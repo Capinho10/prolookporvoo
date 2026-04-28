@@ -38,6 +38,13 @@ export const Route = createRootRoute({
       { name: "author", content: "ProLook Parturi-Kampaamo" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "ProLook Parturi-Kampaamo Porvoo" },
+      { name: "twitter:title", content: "ProLook Parturi-Kampaamo Porvoo" },
+      { name: "description", content: "ProLook Barber Booster is a website for a barber shop that showcases services, pricing, and location." },
+      { property: "og:description", content: "ProLook Barber Booster is a website for a barber shop that showcases services, pricing, and location." },
+      { name: "twitter:description", content: "ProLook Barber Booster is a website for a barber shop that showcases services, pricing, and location." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6f3f0419-a1da-4251-a17f-4f0947a6e909/id-preview-424c55f7--03a472d2-a079-4a64-8303-1cf298a09e92.lovable.app-1777371603965.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6f3f0419-a1da-4251-a17f-4f0947a6e909/id-preview-424c55f7--03a472d2-a079-4a64-8303-1cf298a09e92.lovable.app-1777371603965.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
