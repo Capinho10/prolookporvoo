@@ -73,8 +73,8 @@ function HomePage() {
             <span className="text-accent">JOKA PÄIVÄ.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground md:text-xl">
-            Tervetuloa uudistuneeseen ProLookiin — Porvoon keskustan luotetuin parturi.
-            Ei ajanvarausta, ei kiirettä. Vain laadukasta jälkeä.
+            Tervetuloa uudistuneeseen ProLookiin — Porvoon keskustan luotetuin parturi
+            jo 8 vuoden ajan. Ei ajanvarausta, ei kiirettä. Vain laadukasta jälkeä.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
