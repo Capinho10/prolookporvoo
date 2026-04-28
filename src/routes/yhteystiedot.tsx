@@ -38,11 +38,24 @@ function ContactPage() {
         <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28">
           <p className="font-display text-sm tracking-[0.4em] text-accent">YHTEYSTIEDOT</p>
           <h1 className="mt-4 font-display text-5xl tracking-tight md:text-7xl">
-            Tule käymään
+            Tule käymään parturissa Porvoon vanhassa kaupungissa
           </h1>
-          <p className="mt-5 max-w-xl text-lg text-muted-foreground">
-            Olemme Porvoon keskustassa, helposti löydettävissä. Ei ajanvarausta — kävele sisään.
-          </p>
+          <div className="mt-5 max-w-2xl space-y-4 text-lg text-muted-foreground">
+            <p>
+              Löydät meidät helposti Porvoon keskustasta, aivan vanhan kaupungin tunnelmallisessa
+              kupeessa. Sijainti on keskeinen ja meille on helppo poiketa arjen keskellä tai
+              kaupungilla liikkuessa. Meille et tarvitse ajanvarausta. Astu rohkeasti sisään
+              silloin kun sinulle sopii.
+            </p>
+            <p>
+              Tarjoamme sujuvaa ja laadukasta palvelua ilman turhaa odottelua. Oli kyseessä nopea
+              siistiminen tai huolellinen hiustenleikkaus, hoidamme työn ammattitaidolla ja
+              rennolla otteella. Meille on helppo tulla ja helppo palata uudestaan.
+            </p>
+            <p className="font-display tracking-wider text-accent">
+              Ovet ovat auki. Tervetuloa.
+            </p>
+          </div>
         </div>
       </section>
 
