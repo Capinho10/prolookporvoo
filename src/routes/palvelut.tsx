@@ -35,8 +35,8 @@ const services = [
     price: "20€",
   },
   {
-    fi: "Lapset alle 12v",
-    sv: "Barn under 12 år",
+    fi: "Lapset",
+    sv: "Barn",
     desc: "Reipas ja ystävällinen palvelu lapsiasiakkaille.",
     price: "20€",
   },
