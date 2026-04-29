@@ -88,9 +88,6 @@ function GalleryPage() {
           <h2 className="mt-4 font-display text-4xl tracking-tight md:text-5xl">
             Muutos tuolissa.
           </h2>
-          <p className="mt-4 max-w-xl text-muted-foreground">
-            Klassinen hiusten ja parran muotoilu.
-          </p>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             <figure className="relative overflow-hidden rounded-xl border border-border/60 bg-card">
               <img
