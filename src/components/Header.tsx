@@ -17,7 +17,7 @@ export function Header() {
           <img
             src={logo}
             alt="ProLook Parturi-Kampaamo logo"
-            className="h-10 w-10 rounded-md object-contain"
+            className="h-16 w-16 rounded-md object-contain md:h-20 md:w-20"
           />
           <div className="leading-tight">
             <p className="font-display text-xl tracking-widest text-foreground">PROLOOK</p>
