@@ -27,7 +27,7 @@ export const Route = createFileRoute("/galleria")({
 
 const items = [
   { src: g2, alt: "Skin fade ja slick back -tyyli — ProLook Porvoo", caption: "Skin fade & slick back" },
-  { src: g3, alt: "Low taper -leikkaus — ProLook Porvoo", caption: "Low taper" },
+  { src: g3, alt: "Low teper -leikkaus — ProLook Porvoo", caption: "Low teper" },
   { src: g4, alt: "Taper fade ja design line -leikkaus — ProLook Porvoo", caption: "Taper fade + line" },
   { src: g5, alt: "Low fade tummille hiuksille — ProLook Porvoo", caption: "Low fade" },
 ];
