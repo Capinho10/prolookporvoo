@@ -113,6 +113,11 @@ function GalleryPage() {
               <figcaption className="absolute left-4 top-4 rounded-full bg-accent px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-accent-foreground">
                 Jälkeen
               </figcaption>
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent px-4 pb-4 pt-12">
+                <span className="font-display text-sm tracking-widest text-foreground">
+                  Klassinen hiusten ja parran muotoilu
+                </span>
+              </div>
               <span className="absolute bottom-4 right-4 text-xs uppercase tracking-[0.2em] text-accent">
                 ProLook
               </span>
