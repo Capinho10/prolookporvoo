@@ -5,6 +5,8 @@ import g2 from "@/assets/gallery-2.jpeg";
 import g3 from "@/assets/gallery-3.jpeg";
 import g4 from "@/assets/gallery-4.jpeg";
 import g5 from "@/assets/gallery-5.jpeg";
+import before1 from "@/assets/before-1.jpeg";
+import after1 from "@/assets/after-1.jpeg";
 
 export const Route = createFileRoute("/galleria")({
   head: () => ({
