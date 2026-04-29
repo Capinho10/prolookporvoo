@@ -81,6 +81,40 @@ function GalleryPage() {
         </div>
       </section>
 
+      {/* BEFORE / AFTER */}
+      <section className="border-b border-border/60 bg-background">
+        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20">
+          <p className="font-display text-sm tracking-[0.4em] text-accent">ENNEN & JÄLKEEN</p>
+          <h2 className="mt-4 font-display text-4xl tracking-tight md:text-5xl">
+            Muutos tuolissa.
+          </h2>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            <figure className="relative overflow-hidden rounded-xl border border-border/60 bg-card">
+              <img
+                src={before1}
+                alt="Ennen leikkausta — ProLook Porvoo"
+                loading="lazy"
+                className="h-auto w-full object-cover"
+              />
+              <figcaption className="absolute left-4 top-4 rounded-full bg-background/80 px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-foreground backdrop-blur">
+                Ennen
+              </figcaption>
+            </figure>
+            <figure className="relative overflow-hidden rounded-xl border border-border/60 bg-card">
+              <img
+                src={after1}
+                alt="Jälkeen leikkauksen — ProLook Porvoo"
+                loading="lazy"
+                className="h-auto w-full object-cover"
+              />
+              <figcaption className="absolute left-4 top-4 rounded-full bg-accent px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-accent-foreground">
+                Jälkeen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       {/* MASONRY GRID */}
       <section className="hex-grid">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
