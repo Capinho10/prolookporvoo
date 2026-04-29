@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Star } from "lucide-react";
-import g1 from "@/assets/gallery-1.jpeg";
 import g2 from "@/assets/gallery-2.jpeg";
 import g3 from "@/assets/gallery-3.jpeg";
 import g4 from "@/assets/gallery-4.jpeg";
@@ -27,7 +26,6 @@ export const Route = createFileRoute("/galleria")({
 });
 
 const items = [
-  { src: g1, alt: "Tekstuurinen leikkaus pitkillä päältä — ProLook Porvoo", caption: "Tekstuurinen leikkaus" },
   { src: g2, alt: "Skin fade ja slick back -tyyli — ProLook Porvoo", caption: "Skin fade & slick back" },
   { src: g3, alt: "Klassinen lyhyt leikkaus pojille — ProLook Porvoo", caption: "Klassinen lyhyt" },
   { src: g4, alt: "Taper fade ja design line -leikkaus — ProLook Porvoo", caption: "Taper fade + line" },
