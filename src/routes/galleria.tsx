@@ -67,15 +67,26 @@ function GalleryPage() {
                 keskustasta, Rihkamatori A.
               </p>
             </div>
-            <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
-              <video
-                src="/videos/gallery-1.mp4"
-                poster="/videos/gallery-1-poster.jpg"
-                controls
-                playsInline
-                preload="metadata"
-                className="aspect-[9/16] h-auto w-full object-cover"
-              />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
+                <video
+                  src="/videos/gallery-1.mp4"
+                  poster="/videos/gallery-1-poster.jpg"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="aspect-[9/16] h-auto w-full object-cover"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
+                <video
+                  src="/videos/gallery-2.mov"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="aspect-[9/16] h-auto w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
