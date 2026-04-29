@@ -113,6 +113,9 @@ function GalleryPage() {
               <figcaption className="absolute left-4 top-4 rounded-full bg-accent px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-accent-foreground">
                 Jälkeen
               </figcaption>
+              <span className="absolute bottom-4 right-4 text-xs uppercase tracking-[0.2em] text-accent">
+                ProLook
+              </span>
             </figure>
           </div>
         </div>
