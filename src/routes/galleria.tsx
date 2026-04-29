@@ -86,6 +86,9 @@ function GalleryPage() {
                   preload="metadata"
                   className="aspect-[9/16] h-auto w-full object-cover"
                 />
+                <span className="pointer-events-none absolute bottom-3 right-3 font-display text-xs uppercase tracking-[0.3em] text-accent drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                  ProLook
+                </span>
               </div>
             </div>
           </div>
