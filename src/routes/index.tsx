@@ -44,7 +44,7 @@ const highlights = [
 const priceTeaser = [
   { name: "Hiustenleikkaus", price: "20€" },
   { name: "Eläkeläiset", price: "20€" },
-  { name: "Lapset alle 12v", price: "20€" },
+  { name: "Lapset", price: "20€" },
   { name: "Naisten hiukset", price: "30€" },
   { name: "Parranajo", price: "10€" },
 ];
