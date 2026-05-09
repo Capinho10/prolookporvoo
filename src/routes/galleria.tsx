@@ -67,7 +67,7 @@ function GalleryPage() {
                 keskustasta, Rihkamatori A.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
                   src="/videos/gallery-1.mp4"
@@ -81,6 +81,18 @@ function GalleryPage() {
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
                   src="/videos/gallery-2.mov"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="aspect-[9/16] h-auto w-full object-cover"
+                />
+                <span className="pointer-events-none absolute bottom-3 right-3 font-display text-xs uppercase tracking-[0.3em] text-accent drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                  ProLook
+                </span>
+              </div>
+              <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
+                <video
+                  src="/videos/gallery-3.mov"
                   controls
                   playsInline
                   preload="metadata"
