@@ -25,6 +25,7 @@ export function Header() {
               Parturi-Kampaamo · Porvoo
             </p>
           </div>
+        </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           {nav.map((item) => (
