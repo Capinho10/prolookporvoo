@@ -19,6 +19,12 @@ export function Header() {
             alt="ProLook Parturi-Kampaamo logo"
             className="h-10 w-10 rounded-md object-cover ring-1 ring-border"
           />
+          <div className="leading-tight">
+            <p className="font-display text-xl tracking-widest text-foreground">PROLOOK</p>
+            <p className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+              Parturi-Kampaamo · Porvoo
+            </p>
+          </div>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
