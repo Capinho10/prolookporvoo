@@ -7,6 +7,8 @@ import g4 from "@/assets/gallery-4.jpeg";
 import g5 from "@/assets/gallery-5.jpeg";
 import before1 from "@/assets/before-1.jpeg";
 import after1 from "@/assets/after-1.jpeg";
+import before2 from "@/assets/before-2.jpeg";
+import after2 from "@/assets/after-2.jpeg";
 
 export const Route = createFileRoute("/galleria")({
   head: () => ({
@@ -142,6 +144,39 @@ function GalleryPage() {
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent px-4 pb-4 pt-12">
                 <span className="font-display text-sm tracking-widest text-foreground">
                   Klassinen hiusten ja parran muotoilu
+                </span>
+              </div>
+              <span className="absolute bottom-4 right-4 text-xs uppercase tracking-[0.2em] text-accent">
+                ProLook
+              </span>
+            </figure>
+            <figure className="relative overflow-hidden rounded-xl border border-border/60 bg-card">
+              <img
+                src={before2}
+                alt="Ennen leikkausta — pitkät hiukset ProLook Porvoo"
+                loading="lazy"
+                className="h-auto w-full object-cover"
+              />
+              <figcaption className="absolute left-4 top-4 rounded-full bg-background/80 px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-foreground backdrop-blur">
+                Ennen
+              </figcaption>
+              <span className="absolute bottom-4 right-4 text-xs uppercase tracking-[0.2em] text-accent">
+                ProLook
+              </span>
+            </figure>
+            <figure className="relative overflow-hidden rounded-xl border border-border/60 bg-card">
+              <img
+                src={after2}
+                alt="Jälkeen leikkauksen — siisti sivujakaus ProLook Porvoo"
+                loading="lazy"
+                className="h-auto w-full object-cover"
+              />
+              <figcaption className="absolute left-4 top-4 rounded-full bg-accent px-4 py-1.5 font-display text-xs uppercase tracking-[0.3em] text-accent-foreground">
+                Jälkeen
+              </figcaption>
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent px-4 pb-4 pt-12">
+                <span className="font-display text-sm tracking-widest text-foreground">
+                  Sivujakaus & siisti taper
                 </span>
               </div>
               <span className="absolute bottom-4 right-4 text-xs uppercase tracking-[0.2em] text-accent">
