@@ -11,6 +11,10 @@ import before2Asset from "@/assets/before-2.jpeg.asset.json";
 import after2Asset from "@/assets/after-2.jpeg.asset.json";
 import before3Asset from "@/assets/before-3.jpeg.asset.json";
 import after3Asset from "@/assets/after-3.jpeg.asset.json";
+import video1Asset from "@/assets/gallery-1.mp4.asset.json";
+import video1PosterAsset from "@/assets/gallery-1-poster.jpg.asset.json";
+import video2Asset from "@/assets/gallery-2.mov.asset.json";
+import video3Asset from "@/assets/gallery-3.mov.asset.json";
 
 const before1 = before1Asset.url;
 const after1 = after1Asset.url;
