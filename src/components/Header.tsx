@@ -1,8 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
-import logoAsset from "@/assets/prolook-logo.jpeg.asset.json";
-
-const logo = logoAsset.url;
+import logo from "@/assets/prolook-logo.jpeg";
 
 const nav = [
   { to: "/", label: "Etusivu" },
