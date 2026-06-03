@@ -9,6 +9,8 @@ import before1 from "@/assets/before-1.jpeg";
 import after1 from "@/assets/after-1.jpeg";
 import before2 from "@/assets/before-2.jpeg";
 import after2 from "@/assets/after-2.jpeg";
+import before3Asset from "@/assets/before-3.jpeg.asset.json";
+import after3Asset from "@/assets/after-3.jpeg.asset.json";
 
 export const Route = createFileRoute("/galleria")({
   head: () => ({
