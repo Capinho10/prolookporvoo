@@ -83,8 +83,8 @@ function GalleryPage() {
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
-                  src="/videos/gallery-1.mp4"
-                  poster="/videos/gallery-1-poster.jpg"
+                  src=""+video1Asset.url+""
+                  poster=""+video1PosterAsset.url+""
                   controls
                   playsInline
                   preload="metadata"
@@ -93,7 +93,7 @@ function GalleryPage() {
               </div>
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
-                  src="/videos/gallery-2.mov"
+                  src=""+video2Asset.url+""
                   controls
                   playsInline
                   preload="metadata"
@@ -105,7 +105,7 @@ function GalleryPage() {
               </div>
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
-                  src="/videos/gallery-3.mov"
+                  src=""+video3Asset.url+""
                   controls
                   playsInline
                   preload="metadata"
