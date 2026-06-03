@@ -5,12 +5,17 @@ import g2 from "@/assets/gallery-2.jpeg";
 import g3 from "@/assets/gallery-3.jpeg";
 import g4 from "@/assets/gallery-4.jpeg";
 import g5 from "@/assets/gallery-5.jpeg";
-import before1 from "@/assets/before-1.jpeg";
-import after1 from "@/assets/after-1.jpeg";
-import before2 from "@/assets/before-2.jpeg";
-import after2 from "@/assets/after-2.jpeg";
+import before1Asset from "@/assets/before-1.jpeg.asset.json";
+import after1Asset from "@/assets/after-1.jpeg.asset.json";
+import before2Asset from "@/assets/before-2.jpeg.asset.json";
+import after2Asset from "@/assets/after-2.jpeg.asset.json";
 import before3Asset from "@/assets/before-3.jpeg.asset.json";
 import after3Asset from "@/assets/after-3.jpeg.asset.json";
+
+const before1 = before1Asset.url;
+const after1 = after1Asset.url;
+const before2 = before2Asset.url;
+const after2 = after2Asset.url;
 
 export const Route = createFileRoute("/galleria")({
   head: () => ({
