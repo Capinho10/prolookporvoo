@@ -1,7 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import interior from "@/assets/prolook-interior.jpeg";
+import interiorAsset from "@/assets/prolook-interior.jpeg.asset.json";
 import { MapPin, Clock, Star, Scissors, Users } from "lucide-react";
+
+const interior = interiorAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({

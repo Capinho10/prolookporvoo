@@ -1,10 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Star } from "lucide-react";
-import g2 from "@/assets/gallery-2.jpeg";
-import g3 from "@/assets/gallery-3.jpeg";
-import g4 from "@/assets/gallery-4.jpeg";
-import g5 from "@/assets/gallery-5.jpeg";
+import g2Asset from "@/assets/gallery-2.jpeg.asset.json";
+import g3Asset from "@/assets/gallery-3.jpeg.asset.json";
+import g4Asset from "@/assets/gallery-4.jpeg.asset.json";
+import g5Asset from "@/assets/gallery-5.jpeg.asset.json";
 import before1Asset from "@/assets/before-1.jpeg.asset.json";
 import after1Asset from "@/assets/after-1.jpeg.asset.json";
 import before2Asset from "@/assets/before-2.jpeg.asset.json";
@@ -20,6 +20,10 @@ const before1 = before1Asset.url;
 const after1 = after1Asset.url;
 const before2 = before2Asset.url;
 const after2 = after2Asset.url;
+const g2 = g2Asset.url;
+const g3 = g3Asset.url;
+const g4 = g4Asset.url;
+const g5 = g5Asset.url;
 
 export const Route = createFileRoute("/galleria")({
   head: () => ({
