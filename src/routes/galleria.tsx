@@ -1,10 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Star } from "lucide-react";
-import g2 from "@/assets/gallery-2.jpeg";
-import g3 from "@/assets/gallery-3.jpeg";
-import g4 from "@/assets/gallery-4.jpeg";
-import g5 from "@/assets/gallery-5.jpeg";
+import g2Asset from "@/assets/gallery-2.jpeg.asset.json";
+import g3Asset from "@/assets/gallery-3.jpeg.asset.json";
+import g4Asset from "@/assets/gallery-4.jpeg.asset.json";
+import g5Asset from "@/assets/gallery-5.jpeg.asset.json";
 import before1Asset from "@/assets/before-1.jpeg.asset.json";
 import after1Asset from "@/assets/after-1.jpeg.asset.json";
 import before2Asset from "@/assets/before-2.jpeg.asset.json";
@@ -39,10 +39,10 @@ export const Route = createFileRoute("/galleria")({
 });
 
 const items = [
-  { src: g2, alt: "Skin fade ja slick back -tyyli — ProLook Porvoo", caption: "Skin fade & slick back" },
-  { src: g3, alt: "Low taper -leikkaus — ProLook Porvoo", caption: "Low taper" },
-  { src: g4, alt: "Taper fade ja design line -leikkaus — ProLook Porvoo", caption: "Taper fade + line" },
-  { src: g5, alt: "Low fade tummille hiuksille — ProLook Porvoo", caption: "Low fade" },
+  { src: g2Asset.url, alt: "Skin fade ja slick back -tyyli — ProLook Porvoo", caption: "Skin fade & slick back" },
+  { src: g3Asset.url, alt: "Low taper -leikkaus — ProLook Porvoo", caption: "Low taper" },
+  { src: g4Asset.url, alt: "Taper fade ja design line -leikkaus — ProLook Porvoo", caption: "Taper fade + line" },
+  { src: g5Asset.url, alt: "Low fade tummille hiuksille — ProLook Porvoo", caption: "Low fade" },
 ];
 
 function GalleryPage() {
