@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import interior from "@/assets/prolook-interior.jpeg";
+import interiorAsset from "@/assets/prolook-interior.jpeg.asset.json";
 import { MapPin, Clock, Star, Scissors, Users } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -56,7 +56,7 @@ function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={interior}
+            src={interiorAsset.url}
             alt="ProLook Parturin moderni sisustus hexagon-LED-valoilla Porvoossa"
             className="h-full w-full object-cover opacity-50"
           />
