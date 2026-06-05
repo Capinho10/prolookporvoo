@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
-import logo from "@/assets/prolook-logo.jpeg";
+import logoAsset from "@/assets/prolook-logo.jpeg.asset.json";
 
 const nav = [
   { to: "/", label: "Etusivu" },
@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-3 md:px-8">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src={logo}
+            src={logoAsset.url}
             alt="ProLook Parturi-Kampaamo logo"
             className="h-10 w-10 rounded-md object-cover ring-1 ring-border"
           />

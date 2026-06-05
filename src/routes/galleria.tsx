@@ -14,6 +14,7 @@ import after3Asset from "@/assets/after-3.jpeg.asset.json";
 import video1Asset from "@/assets/gallery-1.mp4.asset.json";
 import video2Asset from "@/assets/gallery-2.mov.asset.json";
 import video3Asset from "@/assets/gallery-3.mov.asset.json";
+import videoPosterAsset from "@/assets/gallery-1-poster.jpg.asset.json";
 const before1 = before1Asset.url;
 const after1 = after1Asset.url;
 const before2 = before2Asset.url;
@@ -82,7 +83,7 @@ function GalleryPage() {
               <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-accent/10">
                 <video
                   src={video1Asset.url}
-                  poster="/videos/gallery-1-poster.jpg"
+                  poster={videoPosterAsset.url}
                   controls
                   playsInline
                   preload="metadata"
